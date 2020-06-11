@@ -1,0 +1,114 @@
+html, body{
+	height: 100%
+}
+
+body{
+	background-color: rgb(240,240,240);
+}
+
+#heading_section{
+height: 20%;
+}
+
+#title{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+  	/*border: 2px solid blue;*/
+}
+
+#page_heading{
+	/*background-color: green;*/
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+  	/*border: 2px solid blue;*/
+}
+
+#filters {
+	/*overflow:hidden;*/
+	background-color: rgb(220,220,220);
+	font-size: 20px;
+	font-weight: bold;
+  	/*border: 2px solid blue;*/
+}
+
+
+#filters > div {
+	overflow:hidden;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid red;
+}
+
+
+
+/*************************************************/
+
+#charts_section{
+height: 80%;
+padding-right: 40px;
+padding-left: 40px;
+/*border: 1px solid black;*/
+}
+
+
+#charts > div{
+	/*border: 1px solid rgb(10,40,60);*/
+	padding:0; 
+	margin-bottom: 25px;
+}
+
+#piechart{
+	position: relative;
+	/*margin-right: 2px;*/
+}
+
+.line
+          {
+              fill:none;
+              stroke-width:3;
+		  }
+		  
+.charttitle{
+	stroke: rgb(10,40,60);
+}
+
+.tooltip1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    color:black;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+  }
+
+.tooltip2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    color:black;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+  }
+
+  #tooltip3 {	
+	position: absolute;			
+	text-align: center;			
+	width: auto;					
+	height: auto;					
+	padding: 2px;				
+	pointer-events: none;	
+	background-color: rgb(245,245,245);
+	color:black;
+	font-size: 12px;
+	border-radius: 10px;
+	border: 0.1px solid black;		
+  }

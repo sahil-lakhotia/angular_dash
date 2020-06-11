@@ -1,0 +1,45 @@
+<div id="heading_section" class="container-fluid">
+  <div id="title" class="row h-35">
+      <div class="col-12 my-auto" >Efficiency Report</div>
+  </div>
+  <div id="page_heading" class="row h-30">
+      <div class="col-12 my-auto">Executive Summary</div>
+  </div>
+  <app-filters (new_dates)="filter_data($event)"></app-filters>
+</div>
+<div id="overall_stats" class="container-fluid">
+  <div id="icons" class="row h-60">
+      <div class="col-3 my-auto" >
+          <img src="../../../assets/packs.png" width="80" height="80">
+      </div>
+      <div class="col-3 my-auto" >
+          <img src="../../../assets/stopwatch.png" width="80" height="80">
+      </div>
+      <div class="col-3 my-auto" >
+          <img src="../../../assets/time.png" width="80" height="80">
+      </div>
+      <div class="col-3 my-auto" >
+          <img src="../../../assets/stopwatch.png" width="80" height="80">
+      </div>
+  </div>
+
+  <div id="overall_numbers" class="row h-20">
+      <div class="col-3 my-auto" >#batches</div>
+      <div class="col-3 my-auto" >#packs</div>
+      <div class="col-3 my-auto" >total time</div>
+      <div class="col-3 my-auto" >packs per hour</div>
+  </div>
+
+  <div id="overall_labels" class="row h-20">
+      <div class="col-3 my-auto" >Number of Batches Processed</div>
+      <div class="col-3 my-auto" >Number of Packs Processed</div>
+      <div class="col-3 my-auto" >Total Time Consumes</div>
+      <div class="col-3 my-auto" >Packs per Hour</div>
+  </div>
+</div>
+<div id="charts_section" class="container-fluid">
+  <div id="charts" class="row h-100">
+      <div id="piechart" class="col-6 my-auto" ></div>
+      <div id="linechart" class="col-6 my-auto" ></div>
+  </div>
+</div>

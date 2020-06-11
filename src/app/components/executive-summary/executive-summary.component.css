@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#heading{
+background-color: blue;
+}
+
+html, body{
+height: 100%
+}
+
+body{
+background-color: rgb(240,240,240);
+}
+
+#heading_section{
+height: 15%;
+/*border: 1px solid black;*/
+}
+
+#title{
+/*background-color: green;*/
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+/*border: 2px solid blue;*/
+}
+
+#page_heading{
+/*background-color: green;*/
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+/*border: 2px solid blue;*/
+}
+
+
+#filters {
+/*overflow:hidden;*/
+background-color: rgb(220,220,220);
+font-size: 20px;
+font-weight: bold;
+/*border: 2px solid blue;*/
+}
+
+
+#filters > div {
+overflow:hidden;
+padding-right: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: 1px solid red;
+}
+
+
+#overall_stats{
+/*background-color: green;*/
+/*padding-top: 18px;*/
+height: 24%;
+/*border: 1px solid black;*/
+/*padding-bottom: 18px;	*/
+margin-bottom: 18px;
+}
+
+#icons{
+/*background-color: green;*/
+padding-top: 18px;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+/*border: 2px solid blue;*/
+}
+
+#overall_numbers{
+/*background-color: green;*/
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+/*border: 2px solid blue;*/
+}
+
+
+#overall_labels{
+/*background-color: green;*/
+/*padding-bottom: 18px;*/
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+/*overflow:hidden;*/
+/*border: 2px solid blue;*/
+}
+
+#icons > div{
+/*border: 2px solid red;*/
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+
+#overall_labels > div {
+overflow: hidden;
+padding-right: 5px;
+/*border: 2px solid red;*/
+}
+
+/*************************************************/
+
+#charts_section{
+height: 58%;
+padding-right: 40px;
+padding-left: 40px;
+/*border: 1px solid black;*/
+}
+
+
+#charts > div{
+/*border: 1px solid rgb(10,40,60);*/
+padding:0; 
+margin-bottom: 25px;
+}
+
+#piechart{
+position: relative;
+/*margin-right: 2px;*/
+}
+
+
+
+.line
+  {
+      fill:none;
+      stroke-width:3;
+  }
+/*.charttitle{
+stroke: rgb(10,40,60);
+}*/
+
+.tooltip1{
+position: absolute;
+width: auto;
+height: auto;
+padding: 10px;
+background-color: rgb(245,245,245);
+color:black;
+font-size: 15px;
+border-radius: 10px;
+border: 0.5px solid black;
+}
+
+
+
+#linechart{
+position: relative;
+}
+
+#tooltip2 {	
+position: absolute;			
+text-align: center;			
+width: auto;					
+height: auto;					
+padding: 2px;				
+pointer-events: none;	
+background-color: rgb(245,245,245);
+color:black;
+font-size: 12px;
+border-radius: 10px;
+border: 0.5px solid black;		
+}
+
+
+.s_tooltip {
+position: absolute;
+width: auto;
+height: auto;
+padding: 10px;
+background-color: white;
+color:black;
+font-size: 15px;
+border-radius: 10px;
+border: 1px solid #777777;
+box-shadow: ("4px 4px 10px rbga(0, 0, 0, 0.4)");
+}
+
+/*  .labels
+  {
+      font-size:15px;
+      font-weight:bold;
+  }*/

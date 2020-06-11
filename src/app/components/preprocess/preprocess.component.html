@@ -1,0 +1,24 @@
+<div id="heading_section" class="container-fluid">
+  <div id="title" class="row h-35">
+      <div class="col-12 my-auto" >Efficiency Report</div>
+  </div>
+  <div id="page_heading" class="row h-30">
+      <div class="col-12 my-auto">Pre-Processing time</div>
+  </div>
+  <app-filters (new_dates)="filter_data($event)"></app-filters>
+</div>
+
+<div id="charts_section" class="container-fluid">
+  <div id="charts" class="row h-50"> 
+    <!-- <div id="upper_row" class = "row h-50"> -->
+      <div id="piechart" class="col-6 my-auto" ></div>
+      <div id="groupedbarchart" class="col-6 my-auto" ></div>
+    </div>
+    <!-- <div id="lower_row" class = "row h-50"> -->
+    <div id="charts" class="row h-50"> 
+      <div class="col-3 my-auto" ></div>
+      <div id="linechart" class="col-6 my-auto" ></div>
+      <div class="col-3 my-auto" ></div>
+    </div>
+  </div>
+

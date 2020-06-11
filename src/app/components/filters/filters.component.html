@@ -1,0 +1,12 @@
+<div id="filters" class="row h-35">
+  <div class="col-7 my-auto" >
+  Time filters
+  <p-calendar [(ngModel)]="filter_dates.filter_st_dt" [touchUI]="true" ></p-calendar>
+  to
+  <p-calendar [(ngModel)]="filter_dates.filter_ed_dt" [touchUI]="true"></p-calendar>
+  <p-button (click)="displaydates($event)" label="Retrive Data" ></p-button>
+  </div>
+  <div class="col-5 my-auto" >
+    Batch Filters
+  </div>
+</div>
